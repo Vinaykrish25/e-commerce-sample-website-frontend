@@ -6,6 +6,7 @@ import ProductCard from '@/components/ui/ProductCard';
 import type { Product } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { api } from '@/services/api';
 
 const Home = () => {
   const [newArrivals, setNewArrivals] = useState<Product[]>([]);
@@ -15,8 +16,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/products');
-        const data = await response.json();
+        const data = await api.getProducts();
         // Mocking sections for now
         setNewArrivals(data.slice(0, 4));
         setTopSelling(data.slice(4, 8));
@@ -29,6 +29,7 @@ const Home = () => {
 
     fetchData();
   }, []);
+
 
   return (
     <div className="min-h-screen flex flex-col">
