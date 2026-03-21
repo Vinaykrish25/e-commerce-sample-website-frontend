@@ -1,0 +1,224 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "T-Shirt with Tape Details",
+            "price": 120,
+            "originalPrice": null,
+            "discount": null,
+            "rating": 4.5,
+            "image": "/assets/arrival_1.png",
+            "category": "Casual",
+            "description": "A stylish T-shirt with unique tape details, perfect for a casual look.",
+            "colors": [
+                "Orange",
+                "White",
+                "Black"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large",
+                "X-Large"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Skinny Fit Jeans",
+            "price": 120,
+            "originalPrice": 260,
+            "discount": 20,
+            "rating": 3.5,
+            "image": "/assets/arrival_2.png",
+            "category": "Casual",
+            "description": "High-quality skinny fit jeans that offer both comfort and style.",
+            "colors": [
+                "Blue",
+                "Light Blue",
+                "Deep Blue"
+            ],
+            "sizes": [
+                "28",
+                "30",
+                "32",
+                "34",
+                "36"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Checkered Shirt",
+            "price": 180,
+            "originalPrice": null,
+            "discount": null,
+            "rating": 4.5,
+            "image": "/assets/arrival_3.png",
+            "category": "Casual",
+            "description": "Classic checkered shirt made from premium cotton fabric.",
+            "colors": [
+                "Red/Black",
+                "Blue/White"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large",
+                "X-Large"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Sleeve Striped T-shirt",
+            "price": 130,
+            "originalPrice": 160,
+            "discount": 30,
+            "rating": 4.5,
+            "image": "/assets/arrival_4.png",
+            "category": "Casual",
+            "description": "Comfortable T-shirt with stylish stripes on the sleeves.",
+            "colors": [
+                "Orange",
+                "Grey"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large",
+                "X-Large"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Vertical Striped Shirt",
+            "price": 212,
+            "originalPrice": 232,
+            "discount": 20,
+            "rating": 5.0,
+            "image": "/assets/top_selling_1.png",
+            "category": "Casual",
+            "description": "Elegant vertical striped shirt for a modern silhouette.",
+            "colors": [
+                "Blue",
+                "White"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large",
+                "X-Large"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Courage Graphic T-shirt",
+            "price": 145,
+            "originalPrice": null,
+            "discount": null,
+            "rating": 4.0,
+            "image": "/assets/top_selling_2.png",
+            "category": "Casual",
+            "description": "Bold graphic T-shirt that makes a statement.",
+            "colors": [
+                "Orange",
+                "Black"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large",
+                "X-Large"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Loose Fit Bermuda Shorts",
+            "price": 80,
+            "originalPrice": null,
+            "discount": null,
+            "rating": 3.0,
+            "image": "/assets/top_selling_3.png",
+            "category": "Casual",
+            "description": "Relaxed fit bermuda shorts for summer days.",
+            "colors": [
+                "Black",
+                "Khaki"
+            ],
+            "sizes": [
+                "30",
+                "32",
+                "34",
+                "36"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Faded Skinny Jeans",
+            "price": 210,
+            "originalPrice": null,
+            "discount": null,
+            "rating": 4.5,
+            "image": "/assets/top_selling_4.png",
+            "category": "Casual",
+            "description": "Premium faded skinny jeans with a worn-in look.",
+            "colors": [
+                "Grey",
+                "Black"
+            ],
+            "sizes": [
+                "28",
+                "30",
+                "32",
+                "34",
+                "36"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "Casual",
+            "image": "/assets/Casual.png"
+        },
+        {
+            "id": "2",
+            "name": "Formal",
+            "image": "/assets/Formal.png"
+        },
+        {
+            "id": "3",
+            "name": "Party",
+            "image": "/assets/Party.png"
+        },
+        {
+            "id": "4",
+            "name": "Gym",
+            "image": "/assets/Gym.png"
+        }
+    ],
+    "reviews": [
+        {
+            "id": "1",
+            "productId": "1",
+            "userName": "Samantha D.",
+            "rating": 5,
+            "comment": "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.",
+            "date": "2023-08-14"
+        },
+        {
+            "id": "2",
+            "productId": "1",
+            "userName": "Alex M.",
+            "rating": 4,
+            "comment": "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.",
+            "date": "2023-08-15"
+        },
+        {
+            "id": "3",
+            "productId": "1",
+            "userName": "Ethan R.",
+            "rating": 4,
+            "comment": "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect.",
+            "date": "2023-08-16"
+        }
+    ]
+}
